@@ -152,7 +152,6 @@ A machine‑readable `CITATION.cff` is included.
 
 - Classical PQ‑kNN baseline by **Jeroen Van Der Donckt** (MIT).  
 - **Qiskit Aer** used for SWAP‑test simulation.  
--Original PQ paper: https://lear.inrialpes.fr/pubs/2011/JDS11/jegou_searching_with_quantization.pdf  
+- Original PQ paper: https://lear.inrialpes.fr/pubs/2011/JDS11/jegou_searching_with_quantization.pdf  
 Jegou, Herve, Matthijs Douze, and Cordelia Schmid. "Product quantization for nearest neighbor search." IEEE transactions on pattern analysis and machine intelligence 33.1 (2010): 117-128.
-
 - Research context and evaluation are detailed in the thesis.
