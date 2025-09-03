@@ -1,6 +1,6 @@
 # Hybrid Quantum Product Quantization k‑NN (PQ‑kNN)
 
-*A prototype that re‑formulates **Product Quantization (PQ)** and its **k‑NN** lookup within a quantum‑information setting.*
+*A first prototype that re‑formulates **Product Quantization (PQ)** and its **k‑NN** lookup within a quantum‑information setting.*
 
 **What’s inside**
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python create_digits_npz.py
 ~~~
 
-Generates `example_data.npz` from scikit‑learn’s Digits dataset (64‑D, ~1800 samples).
+Generates `example_data.npz` from scikit‑learn’s Digits dataset (64‑D, ~1800 samples). The for the experiments used .npz is already given here.
 
 ---
 
@@ -98,7 +98,7 @@ Generates a **normalized** confusion matrix PNG.
 
 ---
 
-## Components
+## Key Components
 
 - **Classical PQ‑kNN** — `ProductQuantizationKNN`  
   Parallelized partitions, scikit‑learn K‑Means, inertia histories.
@@ -120,52 +120,13 @@ Generates a **normalized** confusion matrix PNG.
 ## Key results
 
 - **Accuracy**: The quantum pipeline underperforms on small datasets but converges to classical levels at larger `M` (both ~95% at `M = 300` on Digits 64‑D).  
-- **Iterations**: Quantum K‑Means generally needs more iterations (occasional spikes; can be mitigated by tolerance tuning).  
+- **Iterations**: Quantum K‑Means generally needs more iterations (occasional spikes, can be mitigated by tolerance tuning).  
 - **Cluster quality**: Per‑point losses remain stable with dataset size.  
-- **Runtime**: Quantum path is **much slower** due to simulated SWAP tests.
+- **Runtime**: Quantum path is **much slower** due to simulated SWAP tests and non-optimized classical computations.
 
 ---
 
-## Repository structure
 
-~~~text
-.
-├─ Bachelorarbeit_Informatik-8.pdf
-├─ CITATION.cff
-├─ LICENSE
-├─ config.txt
-├─ requirements.txt
-├─ create_digits_npz.py
-├─ hybrid_quantum_example.py
-├─ test_saved_model.py
-├─ confusion_classical.py
-├─ product_quantization/
-│  ├─ __init__.py
-│  ├─ PQKNN.py
-│  ├─ quantum_distance.py
-│  ├─ quantum_kmeans.py
-│  ├─ quantum_pqknn.py
-│  ├─ quantum_simulator.py
-│  ├─ txt_config_loader.py
-│  ├─ model_persistence.py
-│  ├─ experiment_utils.py
-│  ├─ normalize.py
-│  ├─ util.py
-│  └─ visualization.py
-└─ experiments/           # created at runtime
-~~~
-
----
-
-## Troubleshooting
-
-- **Qiskit/Aer missing** → `pip install qiskit qiskit-aer`  
-- **Quantum runs too slow** → reduce `quantum_shots`, lower `max_iter_qk`, or set `algorithm="classical"`  
-- **Metric errors** → only one of  
-  `"log_fidelity" | "one_minus_fidelity" | "swap_test" | "1-f" | "lf" | "logf" | "omf"` is allowed  
-- **Partition mismatch** → the last partition **takes the remainder** by design
-
----
 
 ## Citation
 
