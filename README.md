@@ -124,6 +124,7 @@ Generates a **normalized** confusion matrix PNG.
 - **Iterations**: Quantum K‑Means generally needs more iterations (occasional spikes, can be mitigated by tolerance tuning).  
 - **Cluster quality**: Per‑point losses remain stable with dataset size.  
 - **Runtime**: Quantum path is **much slower** due to simulated SWAP tests and non-optimized classical computations.
+- **Future work**: In the thesis a few points are detailed for future work. These include things like: more models trained on larger and more diverse datasets, test on different parameter settings, make the code more efficient, or find heuristics/a more efficient centroid update rule  
 
 ---
 
@@ -147,16 +148,8 @@ A machine‑readable `CITATION.cff` is included.
 
 ---
 
-## What to add (placeholders)
-
-- `docs/architecture.png` — high‑level system diagram.  
-- `experiments/reports/accuracy_vs_train_size.png` — accuracy vs. training size.  
-- `experiments/reports/confusion_matrix.png` — example confusion matrix (e.g., `M=300`).
-
----
-
 ## Acknowledgments
 
 - Classical PQ‑kNN baseline by **Jeroen Van Der Donckt** (MIT).  
 - **Qiskit Aer** used for SWAP‑test simulation.  
-- Research context and evaluation are detailed in the thesis (`Bachelorarbeit_Informatik-8.pdf`).
+- Research context and evaluation are detailed in the thesis.
