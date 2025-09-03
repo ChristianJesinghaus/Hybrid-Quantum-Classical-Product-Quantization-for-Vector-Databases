@@ -126,6 +126,13 @@ Generates a **normalized** confusion matrix PNG.
 - **Runtime**: Quantum path is **much slower** due to simulated SWAP tests and non-optimized classical computations.
 - **Future work**: In the thesis a few points are detailed for future work. These include things like: more models trained on larger and more diverse datasets, test on different parameter settings, make the code more efficient, or find heuristics/a more efficient centroid update rule  
 
+<p align="center">
+  <img src="images/accuracy_vs_M.png" alt="Result 1" width="45%"/>
+  <img src="images/mean_loss_pP_LAST.png" alt="Result 2" width="45%"/>
+</p>
+
+
+
 ---
 
 
