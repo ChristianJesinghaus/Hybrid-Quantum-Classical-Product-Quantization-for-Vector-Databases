@@ -1,0 +1,11 @@
+{
+  "compression_ratio": 8.0,
+  "compressed_data_shape": [
+    300,
+    8
+  ],
+  "original_dimensions": 64,
+  "partitions": 8,
+  "clusters_per_partition": 10,
+  "total_centroids": 80
+}

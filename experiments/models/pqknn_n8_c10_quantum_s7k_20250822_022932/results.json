@@ -1,0 +1,12 @@
+{
+  "algorithm": "quantum",
+  "accuracy": 0.85,
+  "train_compress_time_s": 19199.981749534607,
+  "predict_time_s": 178.54322147369385,
+  "compression_ratio": 8.0,
+  "n": 8,
+  "c": 10,
+  "k_neighbors": 9,
+  "distance_metric": "log_fidelity",
+  "quantum_shots": 7000
+}

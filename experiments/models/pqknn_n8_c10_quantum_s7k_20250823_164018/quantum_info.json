@@ -1,0 +1,5 @@
+{
+  "metric": "log_fidelity",
+  "shots": 7000,
+  "smooth_eps": 0.001
+}

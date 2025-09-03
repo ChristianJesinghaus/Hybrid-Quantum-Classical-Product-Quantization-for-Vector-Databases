@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software in research, please cite the thesis below."
+title: "Software accompanying: 'Product Quantization Techniques for Accelerating Vector Database Operations on a Hybrid Quantum Computing Machine'"
+authors:
+  - family-names: Jesinghaus
+    given-names: Christian
+license: "LicenseRef-BA-Citation"
+preferred-citation:
+  type: thesis
+  title: "Product Quantization Techniques for Accelerating Vector Database Operations on a Hybrid Quantum Computing Machine"
+  authors:
+    - family-names: Jesinghaus
+      given-names: Christian
+  thesis-type: "Bachelor's thesis"
+  institution: "Leibniz University Hannover, Institute for Systems Engineering"
+  month: 9
+  year: 2025

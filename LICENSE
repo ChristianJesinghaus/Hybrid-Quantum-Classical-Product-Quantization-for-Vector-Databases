@@ -1,21 +1,50 @@
-MIT License
+MIT License with Academic Citation Requirement (Non-OSI)
+SPDX-License-Identifier: LicenseRef-BA-Citation
 
-Copyright (c) 2025 ChristianJesinghaus
+Copyright (c) 2025 Christian Jesinghaus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+furnished to do so, subject to the conditions below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1) Preservation of Notices.
+   The above copyright notice and this license text must be included in all
+   copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2) Academic Citation Requirement.
+   If You use the Software, any Derivative Work, or any results produced by
+   the Software in any academic, scientific, or technical publication
+   (including theses, dissertations, journal articles, conference papers, and
+   public preprints), You must include the following citation in the
+   references or acknowledgments of the publication (the "Required Citation"):
+
+   Christian Jesinghaus, "Product Quantization Techniques for Accelerating
+   Vector Database Operations on a Hybrid Quantum Computing Machine"
+   Bachelor's Thesis, Leibniz University Hannover, Institute for Systems Engineering,
+   September 2025.
+
+   The Required Citation must be reasonably prominent and sufficient to allow
+   readers to identify the thesis.
+
+3) Termination and Cure.
+   Any failure to comply with Section 2 automatically terminates Your rights
+   under this license. Your rights will be reinstated prospectively if You cure
+   the violation within 30 days of becoming aware of it.
+
+4) Third-Party Components.
+   Components identified in the directory "THIRD_PARTY_LICENSES" (including
+   the file "PQKNN-MIT.txt") are licensed under their respective terms, which
+   are not modified by this license. This license applies only to portions of
+   the repository authored by Christian Jesinghaus.
+
+5) Disclaimer of Warranty.
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.

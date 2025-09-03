@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+qiskit
+qiskit-aer
+pandas
+matplotlib
+seaborn

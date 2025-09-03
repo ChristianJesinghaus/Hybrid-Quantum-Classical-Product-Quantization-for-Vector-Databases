@@ -1,0 +1,46 @@
+============================================================
+HYBRID/CLASSICAL PQKNN MODEL SUMMARY
+============================================================
+
+Model Name: pqknn_n8_c10_classical
+Timestamp: 2025-08-26 18:05:28
+
+CONFIGURATION:
+------------------------------
+train_size               : 150
+test_size                : 30
+data_file                : example_data.npz
+normalize_data           : True
+n                        : 8
+c                        : 10
+k                        : 9
+k_clusters               : 10
+algorithm                : classical
+distance_metric          : log_fidelity
+quantum_shots            : 7000
+max_iter_qk              : 100
+use_log_fidelity         : True
+log_fidelity_precision   : 0.001
+random_state             : 42
+verbose                  : True
+save_model               : True
+model_output_dir         : experiments/models
+create_experiment_report : True
+use_grover_search        : True
+
+RESULTS:
+------------------------------
+algorithm                : classical
+accuracy                 : 0.9667
+train_compress_time_s    : 44.6752
+predict_time_s           : 0.0233
+compression_ratio        : 8.0000
+n                        : 8
+c                        : 10
+k_neighbors              : 9
+distance_metric          : log_fidelity
+quantum_shots            : 7000
+
+ALGORITHM INFO:
+------------------------------
+Algorithm: classical

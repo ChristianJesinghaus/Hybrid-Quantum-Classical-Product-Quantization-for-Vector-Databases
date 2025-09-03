@@ -1,0 +1,45 @@
+# Hybrid Quantum PQKNN Configuration File
+# © 2025 Christian Jesinghaus
+# SPDX-License-Identifier: LicenseRef-BA-Citation
+
+# Data Parameters
+train_size = 300
+test_size = 60
+data_file = "example_data.npz"
+normalize_data = true
+
+# PQKNN Algorithm Parameters
+# in log fidelity =true does c configure the concrete number of clusters instead of 2^c 
+n = 8
+c = 10         
+k = 9
+
+# for setting the cluster number of classical PQ directly (needs to be used if 2^c is not wanted)
+k_clusters = 10 
+
+
+# Quantum Settings to choose between swap test and log fidelity + choose between quantum or classical PQ + shots and iter of k-means
+# If classical is chosen all quantum settings are ignored and the model is only trained via the classical PQKNN.py file
+# "quantum" oder "classical"
+algorithm = "quantum"    
+distance_metric = "log_fidelity"   
+
+quantum_shots = 7000   
+max_iter_qk = 100
+
+# legacy flag use_log_fidelity and precision = smooth_eps
+use_log_fidelity = true
+log_fidelity_precision = 1e-3
+
+
+# Experiment Settings
+random_state = 42
+verbose = true
+save_model = true
+model_output_dir = "experiments/models"
+create_experiment_report = true
+
+
+
+
+

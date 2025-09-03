@@ -1,0 +1,22 @@
+{
+  "train_size": 150,
+  "test_size": 30,
+  "data_file": "example_data.npz",
+  "normalize_data": true,
+  "n": 8,
+  "c": 10,
+  "k": 9,
+  "k_clusters": 10,
+  "algorithm": "classical",
+  "distance_metric": "log_fidelity",
+  "quantum_shots": 7000,
+  "max_iter_qk": 100,
+  "use_log_fidelity": true,
+  "log_fidelity_precision": 0.001,
+  "random_state": 42,
+  "verbose": true,
+  "save_model": true,
+  "model_output_dir": "experiments/models",
+  "create_experiment_report": true,
+  "use_grover_search": true
+}
