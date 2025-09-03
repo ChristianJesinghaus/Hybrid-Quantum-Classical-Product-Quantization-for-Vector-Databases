@@ -6,7 +6,7 @@
 
 - **Classical baseline**: PQ‑kNN with Euclidean sub‑distances and scikit‑learn K‑Means (for comparison).
 - **Hybrid‑quantum variant**: replaces Euclidean sub‑distances with **log‑fidelity** where the fidelity is estimated via the **SWAP test** (Qiskit Aer), and trains sub‑codebooks with a safeguarded **Quantum K‑Means** routine.
-- **Thesis**: The approach and experiments are documented in the bachelor’s thesis PDF.
+- **Thesis**: The approach and experiments are documented in the bachelor’s thesis PDF. Look here for a detailed explanation of the system.
 - **Result highlight (Digits 64‑D)**: The hybrid model approaches the classical accuracy (~95% at `M = 300`).
 
 ---
@@ -63,6 +63,7 @@ max_iter_qk = 100
 ~~~
 
 See `config.txt` for more options.
+Additionally if wanted one can configure the tolerance setting in the 'quantum_kmeans.py' file.
 
 ---
 
