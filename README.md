@@ -122,7 +122,7 @@ Generates a **normalized** confusion matrix PNG.
 
 - **Accuracy**: The quantum pipeline underperforms on small datasets but converges to classical levels at larger `M` (both ~95% at `M = 300` on Digits 64‑D).  
 - **Iterations**: Quantum K‑Means generally needs more iterations (occasional spikes, can be mitigated by tolerance tuning).  
-- **Cluster quality**: Per‑point losses remain stable with dataset size.  
+- **Cluster quality**: Per‑point losses remain roughly stable with larger dataset size.  
 - **Runtime**: Quantum path is **much slower** due to simulated SWAP tests and non-optimized classical computations.
 - **Future work**: In the thesis a few points are detailed for future work. These include things like: more models trained on larger and more diverse datasets, test on different parameter settings, make the code more efficient, or find heuristics/a more efficient centroid update rule  
 
