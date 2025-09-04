@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Christian Jesinghaus'
-
+ 
 # © 2025 Christian Jesinghaus
 # SPDX-License-Identifier: LicenseRef-BA-Citation
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Jeroen Van Der Donckt'
-
+ 
 # © 2021 Jeroen Van Der Donckt — License: MIT (see THIRD_PARTY_LICENSES/classical_PQKNN-MIT.txt)
 # Modifications © 2025 Christian Jesinghaus
 # SPDX-License-Identifier: MIT

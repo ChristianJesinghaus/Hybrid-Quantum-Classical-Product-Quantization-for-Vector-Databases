@@ -4,4 +4,4 @@ qiskit
 qiskit-aer
 pandas
 matplotlib
-seaborn
+seaborn 

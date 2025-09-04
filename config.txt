@@ -1,10 +1,10 @@
 # Hybrid Quantum PQKNN Configuration File
-# © 2025 Christian Jesinghaus
+# © 2025 Christian Jesinghaus 
 # SPDX-License-Identifier: LicenseRef-BA-Citation
 
 # Data Parameters
-train_size = 300
-test_size = 60
+train_size = 250
+test_size = 50
 data_file = "example_data.npz"
 normalize_data = true
 
