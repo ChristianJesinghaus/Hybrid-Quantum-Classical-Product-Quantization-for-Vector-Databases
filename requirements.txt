@@ -5,3 +5,4 @@ qiskit-aer
 pandas
 matplotlib
 seaborn 
+tqdm
